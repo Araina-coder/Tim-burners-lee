@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding-top: 1000px;
+    
+}
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50% ;
+    
+        
+        
+}
+#intro {
+    position: absolute;
+    height: 1000px;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    display:table;
+    background: linear-gradient(yellow 100%,pink 0%) ;
+    width: 100% ; 
+    height: 100%;
+    z-index: 9;
+        
+        
+}
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+        
+}
+.menu
+{list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    
+    
+}
+
+.links
+{
+float: left;
+    padding: 10px;
+    font-family:cursive;
+    font-size: 20px;
+    color:black;
+    
+        
+    
+}
+
+.links:hover
+{
+    background-color: cyan;
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+p {
+    max-width: 450px;
+    font-size: 17px;
+    margin: 250px auto;
+    line-height: 1.3;
+}
+
+   
+    
+
+
